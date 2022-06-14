@@ -43,10 +43,8 @@ class Calculator
         }
     }
 }
+
 if (isset($_POST['operation'])) {
     $oper = new Calculator();
     $result = $oper->calculate($_POST['num1'], $_POST['num2'], $_POST['operation']);
 }
-
-?>
-
