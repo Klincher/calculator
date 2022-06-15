@@ -1,16 +1,18 @@
 <?php
 
-class Controller {
+namespace Calculator\Application\Core;
 
-	public $model;
-	public $view;
+class Controller
+{
+    public $model;
+    public $view;
 
-	function __construct()
-	{
-		$this->view = new View();
-	}
+    function __construct()
+    {
+        $this->view = new View();
+    }
 
-	function action_index()
-	{
-	}
+    function action_index()
+    {
+    }
 }

@@ -1,4 +1,8 @@
 <?php
+namespace Calculator\Application\Models;
+
+use Calculator\Application\Core\Model;
+
 class Model_Calculator extends Model
 {
     public function add($x, $y)

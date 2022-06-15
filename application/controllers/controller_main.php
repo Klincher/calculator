@@ -1,5 +1,9 @@
 <?php
 
+namespace Calculator\Application\Controllers;
+
+use Calculator\Application\Core\Controller;
+
 class Controller_Main extends Controller
 {
     function action_index()

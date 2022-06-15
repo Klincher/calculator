@@ -1,4 +1,5 @@
 <?php
+namespace Calculator\Application\Core;
 
 class Model
 {

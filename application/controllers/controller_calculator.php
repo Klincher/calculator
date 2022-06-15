@@ -1,15 +1,14 @@
 <?php
+namespace Calculator\Application\Controllers;
 
+use Calculator\Application\Core\Controller;
+use Calculator\Application\Models\Model_Calculator;
+use Calculator\Application\Core\View;
 class Controller_Calculator extends Controller
 {
     function __construct() {
         $this->model = new Model_Calculator();
         $this->view = new View();
-    }
-
-    function action_index()
-    {
-        $this->view->generate('calculator_view.php', 'template_view.php');
     }
 
     function action_calculate()
