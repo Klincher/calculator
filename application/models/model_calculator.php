@@ -1,4 +1,5 @@
 <?php
+
 namespace Calculator\Application\Models;
 
 use Calculator\Application\Core\Model;
